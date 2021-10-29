@@ -1,0 +1,160 @@
+Dependencies for Project 'i2c', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x617C03CA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\global.h)(0x6179AE2B)()
+F (.\I2C.c)(0x6159E6EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/i2c.o -MD)
+I (I2C.h)(0x6159631E)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\I2C.h)(0x6159631E)()
+F (.\my_gpio.c)(0x615EEF7B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/my_gpio.o -MD)
+I (my_gpio.h)(0x615976CF)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\my_gpio.h)(0x615976CF)()
+F (.\init_rcc.c)(0x61589412)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/init_rcc.o -MD)
+I (init_rcc.h)(0x615893DF)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\init_rcc.h)(0x615893DF)()
+F (.\my_delay.c)(0x6167D25A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/my_delay.o -MD)
+I (my_delay.h)(0x614DAE23)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\my_delay.h)(0x614DAE23)()
+F (.\init_timer.c)(0x614E0033)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/init_timer.o -MD)
+I (init_timer.h)(0x614DCA5E)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\init_timer.h)(0x614DCA5E)()
+F (.\button.c)(0x615F1AFD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/button.o -MD)
+I (button.h)(0x615EEF6D)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (my_math.h)(0x616AA274)
+I (usart_better.h)(0x617C3621)
+F (.\button.h)(0x615EEF6D)()
+F (.\my_math.c)(0x616AA278)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/my_math.o -MD)
+I (my_math.h)(0x616AA274)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (usart_better.h)(0x617C3621)
+F (.\my_math.h)(0x616AA274)()
+F (.\usart_better.c)(0x617C06BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/usart_better.o -MD)
+I (usart_better.h)(0x617C3621)
+I (global.h)(0x6179AE2B)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
+I (my_gpio.h)(0x615976CF)
+I (my_delay.h)(0x614DAE23)
+I (button.h)(0x615EEF6D)
+I (my_math.h)(0x616AA274)
+F (.\usart_better.h)(0x617C3621)()
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5927FBC6)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5825548C)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x6158A856)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/isakn/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/isakn/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825548C)
+I (RTE\_Target_1\RTE_Components.h)(0x615E91EC)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D40502)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603523F0)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D40502)
+I (C:\Users\isakn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825548C)
